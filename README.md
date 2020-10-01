@@ -1,5 +1,5 @@
 # DataGrip POPO generator
-An extension for IntelliJ based IDEs ([DataGrip IDE](https://www.jetbrains.com/datagrip/), [Rider](https://www.jetbrains.com/rider/) etc.) for generation POPO (Python) classes from a database.
+An extension for IntelliJ based IDEs ([DataGrip IDE](https://www.jetbrains.com/datagrip/), [Rider](https://www.jetbrains.com/rider/) etc.) for generation POPO (Python) classes from a database to be utilized with SqlAlchemy.
 
 ![usage](https://habrastorage.org/files/893/0a0/6fc/8930a06fc6064250b744aeda3a80466a.png)
 
