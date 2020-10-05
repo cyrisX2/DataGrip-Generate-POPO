@@ -40,7 +40,7 @@ def generate(out, className, fields) {
         if (it.foreign) {
             it.foreignKeys.each() { fk -> 
                 if (DasUtil.containsName(it.colName, fk.getColumnsRef())) {
-                    out.print(", ${pythonClassName(fk.getRefTableName())}.${toSnakeCase(fk.getColumnsRef().iterate().next())}")
+                    out.print(", ForeignKey(${pythonClassName(fk.getRefTableName())}.${toSnakeCase(fk.getColumnsRef().iterate().next())})")
                     // str = ""
                     // fk.getColumnsRef().iterate().metaClass.methods.name.unique().each{ 
                     //     str += it+"(); "
